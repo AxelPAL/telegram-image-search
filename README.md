@@ -1,1 +1,1 @@
-# repository for Plati.ru telegram bot
+# repository for ImageSearcher telegram bot
