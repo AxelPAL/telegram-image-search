@@ -31,7 +31,7 @@ Telegram::Bot::Client.run(@telegram_api) do |bot|
                 the_link = "<a href='#{link_href}'>#{name}</a>"
                 the_links.push(the_link)
               end
-              bot.api.send_message(chat_id: message.chat.id, text: the_links.join("\n"), :parse_mode => 'html')
+              bot.api.send_message(chat_id: message.chat.id, text: the_links.join("\n\n"), :parse_mode => 'html')
             end
           end
         else
