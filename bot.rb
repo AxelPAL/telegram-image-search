@@ -1,4 +1,4 @@
-require_relative 'config'
+load 'config.rb'
 require 'telegram_bot'
 require 'telegram/bot'
 require 'net/http'
