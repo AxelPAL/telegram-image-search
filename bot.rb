@@ -24,7 +24,7 @@ Telegram::Bot::Client.run(@telegram_api) do |bot|
             links = page.css('a.link.link_theme_normal.other-sites__title-link.i-bem')
             the_links = []
             if links.length > 0
-              links[0..4].each do |link|
+              links[0..9].each do |link|
                 name = link.text
                 link_href = link['href']
                 # link_href = link.next_element['href']
