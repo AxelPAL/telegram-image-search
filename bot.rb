@@ -33,6 +33,8 @@ Telegram::Bot::Client.run(@telegram_api) do |bot|
     begin
       case message.text
         when '/start'
+        when '/help'
+        when 'start'
           object = {
               keyboard: [
                   ['English'],
