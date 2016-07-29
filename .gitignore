@@ -1,2 +1,3 @@
-config.rb
+config/config.rb
+config/database.yml
 .idea
